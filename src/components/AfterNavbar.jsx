@@ -12,9 +12,10 @@ import product1 from "./images/product1.jpeg";
 import product2 from "./images/product2.jpeg";
 import product3 from "./images/product3.jpeg";
 import product4 from "./images/product4.jpeg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const AfterNavbar = () => {
+  const goto = useNavigate();
   return (
     <>
       <div className="flex justify-center gap-12 my-8">
@@ -194,7 +195,7 @@ const AfterNavbar = () => {
         <div className="py-5 text-gray-600 cursor-pointer">
           <BsCart size={25} />
         </div>
-        <div className="py-5 text-gray-600 cursor-pointer">
+        <div className="py-5 text-gray-600 cursor-pointer" onClick={()=>goto("/login")}>
           <HiOutlineUser size={25} />
         </div>
       </div>

@@ -8,11 +8,11 @@ const Home = () => {
   const [sortby, setSortby] = useState("position");
   const [positioning, setPositioning] = useState("row");
   useEffect(() => {
-    fetch()
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-      });
+    // fetch()
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setProducts(data);
+      // });
   }, [sortby]);
   return (
     <div className="flex px-3 mb-8">

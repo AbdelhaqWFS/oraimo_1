@@ -16,11 +16,11 @@ import create7 from "../images/create7.jpg";
 const Home = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch()
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-      });
+    // fetch()
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setProducts(data);
+    //   });
   }, []);
 
   const images = [

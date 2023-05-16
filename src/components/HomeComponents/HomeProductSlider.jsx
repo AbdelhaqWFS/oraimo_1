@@ -6,11 +6,11 @@ import { GrStar } from "react-icons/gr";
 const HomeProductSlider = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch()
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-      });
+    // fetch()
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     setProducts(data);
+    //   });
   }, []);
 
   return (
