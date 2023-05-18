@@ -8,11 +8,8 @@ import create2 from "../images/create2.jpg";
 import create4 from "../images/create4.jpg";
 import create5 from "../images/create5.jpg";
 
-// import create6 from "../images/create6.jpg";
 import create7 from "../images/create7.jpg";
 
-// import create8 from "../images/create8.jpg";
-// import create9 from "../images/create9.jpeg";
 const Home = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {

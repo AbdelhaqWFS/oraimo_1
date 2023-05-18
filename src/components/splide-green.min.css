@@ -310,3 +310,469 @@
   right: 0.5em;
   top: 0;
 }
+
+
+
+
+.account .block-collapsible-nav .item.current a,
+.account .block-collapsible-nav .item.current>strong {
+    border: none;
+    color: #4ad295
+}
+
+.customer-account-login .page-title-wrapper,
+.customer-account-create .page-title-wrapper {
+    text-align: center
+}
+
+.customer-account-login .page-title-wrapper .page-title,
+.customer-account-create .page-title-wrapper .page-title {
+    color: #000
+}
+
+.login-container {
+    position: relative
+}
+
+.login-container .block-new-customer .actions-toolbar {
+    margin-top: 25px
+}
+
+.login-container .block-new-customer p {
+    color: #999
+}
+
+.login-container .block .block-title {
+    font-size: 2.4rem
+}
+
+.login-container .block .block-title strong {
+    font-weight: 600
+}
+
+.login-container .block .login .actions-toolbar>.primary {
+    float: none
+}
+
+.login-container .block .login .actions-toolbar>.secondary {
+    float: none;
+    text-align: left;
+    margin-bottom: 10px;
+    display: block
+}
+
+.login-container .block .login .actions-toolbar .primary {
+    float: none
+}
+
+.login-container .or-column {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 1px;
+    background-color: #f2f2f2
+}
+
+.login-container .or-column .or-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    margin-left: -14px
+}
+
+.login-container .fieldset:after {
+    margin: 10px 0 0;
+    content: attr(data-hasrequired);
+    display: block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: #e02b27;
+    font-size: 1.2rem
+}
+
+.login-container .fieldset>.field:not(.choice)>.label {
+    width: 100%;
+    float: none;
+    text-align: left;
+    margin-bottom: 10px
+}
+
+.login-container .fieldset>.field:not(.choice)>.control {
+    width: 100%;
+    float: left
+}
+
+.login-container .fieldset:after {
+    margin-top: 10px
+}
+
+.login-container .note {
+    color: #999
+}
+
+.login-container .input-text {
+    background: #f2f2f2;
+    border: none;
+    height: 42px;
+    border-radius: 4px
+}
+
+.login-container .action.primary,
+.login-container .action-primary {
+    background-image: none;
+    background: #4ad295;
+    border: 1px solid #4ad295;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    padding: 7px 15px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle
+}
+
+.login-container .action.primary:focus,
+.login-container .action-primary:focus,
+.login-container .action.primary:active,
+.login-container .action-primary:active {
+    background: #4ad295;
+    border: 1px solid #4ad295;
+    color: #fff
+}
+
+.login-container .action.primary:hover,
+.login-container .action-primary:hover {
+    background: #4ad295;
+    border: 1px solid #4ad295;
+    color: #fff
+}
+
+.login-container .action.primary.disabled,
+.login-container .action-primary.disabled,
+.login-container .action.primary[disabled],
+.login-container .action-primary[disabled],
+fieldset[disabled] .login-container .action.primary,
+fieldset[disabled] .login-container .action-primary {
+    opacity: .5;
+    cursor: default;
+    pointer-events: none
+}
+
+.login-container a.action.remind {
+    color: #999
+}
+
+.form.create.account .fieldset.create.info,
+.form.create.account .fieldset.create.account {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px
+}
+
+.form.create.account .fieldset .legend {
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: 600
+}
+
+.form.create.account .fieldset>.field:not(.choice)>.label {
+    width: 100%;
+    float: none;
+    text-align: left;
+    margin-bottom: 10px
+}
+
+.form.create.account .fieldset>.field:not(.choice)>.control {
+    width: 100%;
+    float: left
+}
+
+.form.create.account .fieldset>.field.choice:before {
+    display: none
+}
+
+.form.create.account .input-text {
+    background: #f2f2f2;
+    border: none;
+    height: 42px;
+    border-radius: 4px
+}
+
+.form.create.account .password-strength-meter {
+    background: none
+}
+
+.form.create.account .actions-toolbar .primary,
+.form.create.account .actions-toolbar .secondary {
+    display: block;
+    float: none
+}
+
+.form.create.account .actions-toolbar>.primary {
+    margin-bottom: 10px
+}
+
+.form.create.account .actions-toolbar>.primary .action.primary {
+    float: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 42px
+}
+
+.form.create.account .actions-toolbar .action.back {
+    color: #000
+}
+
+.form.create.account .action.primary,
+.form.create.account .action-primary {
+    background-image: none;
+    background: #4ad295;
+    border: 1px solid #4ad295;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    padding: 7px 15px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    vertical-align: middle
+}
+
+.form.create.account .action.primary:focus,
+.form.create.account .action-primary:focus,
+.form.create.account .action.primary:active,
+.form.create.account .action-primary:active {
+    background: #4ad295;
+    border: 1px solid #4ad295;
+    color: #fff
+}
+
+.form.create.account .action.primary:hover,
+.form.create.account .action-primary:hover {
+    background: #4ad295;
+    border: 1px solid #4ad295;
+    color: #fff
+}
+
+.form.create.account .action.primary.disabled,
+.form.create.account .action-primary.disabled,
+.form.create.account .action.primary[disabled],
+.form.create.account .action-primary[disabled],
+fieldset[disabled] .form.create.account .action.primary,
+fieldset[disabled] .form.create.account .action-primary {
+    opacity: .5;
+    cursor: default;
+    pointer-events: none
+}
+
+.block-addresses-list .items.addresses>.item {
+    margin-bottom: 20px
+}
+
+.block-addresses-list .items.addresses>.item:last-child {
+    margin-bottom: 0
+}
+
+.form-address-edit .region_id {
+    display: none
+}
+
+.form-edit-account .fieldset.password {
+    display: none
+}
+
+.box-billing-address .box-content,
+.box-shipping-address .box-content,
+.box-information .box-content,
+.box-newsletter .box-content {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    line-height: 26px
+}
+
+.fieldset .fullname.field>.label+.control {
+    width: 100%
+}
+
+.account .column.main h2 {
+    margin-top: 0
+}
+
+.account .column.main .toolbar {
+    text-align: center
+}
+
+.account .column.main .toolbar .limiter-options {
+    width: auto
+}
+
+.account .sidebar-additional {
+    margin-top: 40px
+}
+
+.account .table-wrapper:last-child {
+    margin-bottom: 0
+}
+
+.account .table-wrapper .action {
+    margin-right: 15px
+}
+
+.account .table-wrapper .action:last-child {
+    margin-right: 0
+}
+
+.account-nav .content {
+    background: #f5f5f5;
+    padding: 15px 0
+}
+
+.account-nav .item {
+    margin: 3px 0 0
+}
+
+.account-nav .item:first-child {
+    margin-top: 0
+}
+
+.account-nav .item a,
+.account-nav .item>strong {
+    border-left: 3px solid transparent;
+    display: block;
+    padding: 5px 18px 5px 15px
+}
+
+.account-nav .item a {
+    text-decoration: none
+}
+
+.account-nav .item a:hover {
+    background: #e8e8e8
+}
+
+.account-nav .item.current a,
+.account-nav .item.current strong {
+    border-color: #ff5501;
+    font-weight: 600
+}
+
+.account-nav .item.current a {
+    border-color: #ff5501
+}
+
+.account-nav .item .delimiter {
+    border-top: 1px solid #d1d1d1;
+    display: block;
+    margin: 10px 1.8rem
+}
+
+.column.main .block:last-child {
+    margin-bottom: 0
+}
+
+.block .title {
+    margin-bottom: 10px
+}
+
+.block .title strong {
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.column.main .block .title strong {
+    font-size: 18px
+}
+
+.block p:last-child {
+    margin: 0
+}
+
+.block .box-actions {
+    margin-top: 5px
+}
+
+.field.password .control {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.field.password .control .mage-error {
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2
+}
+
+.field.password .control .input-text {
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+    z-index: 2
+}
+
+.password-strength-meter {
+    background-color: #f4f4f4;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 9px;
+    position: relative;
+    z-index: 1
+}
+
+.password-strength-meter:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1
+}
+
+.password-none .password-strength-meter:before {
+    background-color: #f4f4f4;
+    width: 100%
+}
+
+.password-weak .password-strength-meter:before {
+    background-color: #ffafae;
+    width: 25%
+}
+
+.password-medium .password-strength-meter:before {
+    background-color: #ffd6b3;
+    width: 50%
+}
+
+.password-strong .password-strength-meter:before {
+    background-color: #c5eeac;
+    width: 75%
+}
+
+.password-very-strong .password-strength-meter:before {
+    background-color: #81b562;
+    width: 100%
+}
+

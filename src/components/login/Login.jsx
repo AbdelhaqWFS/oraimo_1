@@ -30,24 +30,12 @@ const Login = () => {
               data-bind="scope:'authenticationPopup', style: {display: 'none'}"
               style={{ display: "none" }}
             >
-              {/* ko template: getTemplate() */}
-              {/* /ko */}
+
             </div>
-            <style
-              type="text/css"
-              dangerouslySetInnerHTML={{
-                __html:
-                  "\n                            .form-customer-login .g-recaptcha {\n                padding-top: 20%;\n            }\n        \n        .form.form-login .g-recaptcha .grecaptcha-badge{\n            position: unset !important;\n        }\n\n        .form-customer-login .g-recaptcha {\n            margin: 0px;\n        }\n\n        #social-form-create .g-recaptcha{\n            padding-top: 5%;\n        }\n\n        #social-form-password-forget .g-recaptcha{\n            padding-top: 5%;\n        }\n\n        .onestepcheckout-index-index .form-login .g-recaptcha .grecaptcha-badge {\n            position: unset !important;\n        }\n\n        .checkout-index-index form[data-role=login] .g-recaptcha .grecaptcha-badge {\n            position: unset !important;\n        }\n\n        #mpageverify-form .g-recaptcha {\n            margin-left: 30%;\n        }\n\n        .g-recaptcha {\n            margin-top: 15px;\n            margin-bottom: 15px;\n        }\n    ",
-              }}
-            />
+           
             <div className="login-container">
               <div className="block block-customer-login">
-                <style
-                  dangerouslySetInnerHTML={{
-                    __html:
-                      "\n        .login-container .account-social-login {\n            float: left !important;\n        }\n        .login-container .account-social-login .block-content {\n            text-align: left !important;\n        }\n        @media (max-width: 767px) {\n            .login-container .account-social-login .block-content {\n                text-align: center !important;\n            }\n        }\n    ",
-                  }}
-                />
+               
                 <div className="block-title">
                   <strong
                     id="block-customer-login-heading"
@@ -138,13 +126,7 @@ const Login = () => {
                       </div>
                     </fieldset>
                   </form>
-                  <style
-                    type="text/css"
-                    dangerouslySetInnerHTML={{
-                      __html:
-                        "\n    .request-popup{\n        overflow-y: unset;\n        max-width: 800px;\n        left: 30%;\n    }\n    .request-popup .modal-header{\n        padding: 0;\n    }\n    .request-popup .modal-header button.action-close{\n        color: white;\n        z-index: 100;\n    }\n    .request-popup .modal-content{\n        padding: 0;\n    }\n",
-                    }}
-                  />
+                 
                 </div>
               </div>
               <div className="block block-new-customer">
